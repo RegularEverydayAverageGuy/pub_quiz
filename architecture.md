@@ -32,3 +32,19 @@ To be able to generate a dynamic multi-category quiz with questions and answers 
     a) Should provide the user to configure the game
     b) Provide interface for team creation
     c) Update the interface based on the games state
+
+
+## Implementation
+
+1) Game logic
+
+    a) Contains classes and structures that hold the game
+       state like:
+       - Quiz (questions and answers) - populated via quiz
+         generator
+       - Game (game flow, current category, current
+         question, teams, leaderboard)
+       - Answer validator
+
+
+    Maybe could work like a state machine
